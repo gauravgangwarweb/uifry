@@ -8,7 +8,7 @@ const Hero = () => {
       />
       <img
         className="w-12 h-12 hidden md:block absolute left-8"
-        src="star-2.png"
+        src="star-3.png"
         alt="star-2"
       />
       <div className="grid grid-cols-1 md:grid-cols-2">
@@ -22,7 +22,9 @@ const Hero = () => {
             {"Make The Best Financial Decisions"}
           </h3>
           <p className="relative text-lg font-medium z-10 mt-5">
-            {"Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor."}
+            {
+              "Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor."
+            }
           </p>
           <div className="flex gap-6 mt-6">
             <button className="bg-black text-white flex gap-2 items-center px-4 py-3">
@@ -58,38 +60,44 @@ const Hero = () => {
               <span>Watch Video</span>
             </button>
           </div>
-          <img className="hidden md:block absolute bottom-72 left-32" src="star-3.png" alt="star-3" />
+          <img
+            className="hidden md:block absolute bottom-72 left-32"
+            src="star-3.png"
+            alt="star-3"
+          />
           <img src="strip-image.png" alt="strip" />
         </div>
-        <div className="">
-          <div className="relative">
-            <img
-              className="absolute top-32 md:top-64 right-10 z-0"
-              src="hero-mobile-bg.png"
-              alt="hero-mobile-bg"
-            />
-            <img className="absolute -top-12 right-5 md:right-0" src="rings.png" alt="rings" />
-            <img
-              className="md:w-auto h-[480px] md:h-auto absolute top-8 md:top-20 -right-2 md:right-0 z-10"
-              src="hero-phone-1.png"
-              alt="hero-phone-1"
-            />
-            <img
-              className="md:w-auto h-[480px] md:h-auto absolute -top-4 md:top-3 -right-1 md:right-6 z-10"
-              src="hero-phone-2.png"
-              alt="hero-phone-2"
-            />
-            <img
-              className="md:w-auto h-[480px] md:h-auto absolute -top-14 right-16 md:right-36 z-10"
-              src="hero-phone-3.png"
-              alt="hero-phone-3"
-            />
-            <img
-              className="absolute top-[560px] right-[500px] z-20"
-              src="star-2.png"
-              alt="star"
-            />
-          </div>
+        <div className="relative h-96 md:h-auto">
+          <img
+            className="absolute top-32 md:top-64 right-10 z-0"
+            src="hero-mobile-bg.png"
+            alt="hero-mobile-bg"
+          />
+          <img
+            className="absolute -top-12 right-5 md:right-0"
+            src="rings.png"
+            alt="rings"
+          />
+          <img
+            className="md:w-auto h-[480px] md:h-auto absolute top-8 md:top-20 -right-2 md:right-0 z-10"
+            src="hero-phone-1.png"
+            alt="hero-phone-1"
+          />
+          <img
+            className="md:w-auto h-[480px] md:h-auto absolute -top-4 md:top-3 -right-1 md:right-6 z-10"
+            src="hero-phone-2.png"
+            alt="hero-phone-2"
+          />
+          <img
+            className="md:w-auto h-[480px] md:h-auto absolute -top-14 right-16 md:right-36 z-10"
+            src="hero-phone-3.png"
+            alt="hero-phone-3"
+          />
+          <img
+            className="absolute top-[560px] right-[500px] z-20"
+            src="star-2.png"
+            alt="star"
+          />
         </div>
       </div>
     </section>
