@@ -16,16 +16,16 @@ const Features: React.FC = () => {
             alt="features-mobile-bg"
           />
           <img
-            className="absolute h-[460px] md:h-[650px] -top-11 md:-top-7 right-8 md:right-2 z-20"
+            className="absolute h-[460px] md:h-[630px] -top-11 md:-top-7 right-8 md:right-4 z-20"
             src="features-phone.png"
             alt="phone-3"
           />
         </div>
         <div className="text-left mt-20 md:mt-0">
-          <p className="text-[#FF5555] text-lg font-medium uppercase text-center md:text-right">
+          <p className="text-[#FF5555] text-lg font-medium uppercase text-center md:text-left">
             Features
           </p>
-          <h4 className="text-5xl font-bold text-center md:text-right">Uifry Premium</h4>
+          <h4 className="text-5xl font-bold text-center md:text-left">Uifry Premium</h4>
           <div className="relative mt-6 z-10">
             <h6 className="flex items-center gap-2">
               <svg
