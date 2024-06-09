@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
           <p className={`${activeTab === "features" ? "font-bold text-[#FF5555]" : "font-medium"}`}>Features</p>
         </div>
       </div>
-      <button className="bg-black text-white text-lg font-medium cursor-pointer px-8 py-2">Download</button>
+      <button className="bg-black text-white text-lg font-medium cursor-pointer px-8 py-2 hover:bg-[#FF5555]">Download</button>
     </nav>
   );
 };
