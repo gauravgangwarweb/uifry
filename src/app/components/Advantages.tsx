@@ -78,7 +78,7 @@ const Advantages: React.FC = () => {
           />
           <img
             loading="lazy"
-            className="absolute -right-5"
+            className="absolute md:-right-5"
             src="advantages-second-phone-bg.png"
             alt="phone-bg"
           />
