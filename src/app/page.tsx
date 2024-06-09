@@ -4,6 +4,7 @@ import Features from "./components/Features";
 import Advantages from "./components/Advantages";
 import Testimonial from "./components/Testimonial";
 import Faq from "./components/Faq";
+import GetStarted from "./components/GetStarted";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Advantages />
       <Testimonial />
       <Faq />
+      <GetStarted />
     </main>
   );
 }
